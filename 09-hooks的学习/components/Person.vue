@@ -13,10 +13,6 @@
 <script lang="ts" setup name="Person">
 import useDog from '../hooks/useDog.ts';
 import useSum from '../hooks/useSum.ts';
-
-/**
- * hooks的学习，让数据和它的函数即逻辑 ，这些关联的东西放在一起；
- */
 const {dogList,addDog} = useDog();
 const {sum,sumAdd} = useSum();
 
