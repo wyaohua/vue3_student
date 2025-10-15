@@ -6,7 +6,6 @@ export default function () {
   //数据
   let dogList = reactive([
     'https://images.dog.ceo//breeds//pembroke//n02113023_15462.jpg',
-
   ])
 
 

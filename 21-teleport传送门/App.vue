@@ -1,18 +1,16 @@
 <template>
   <div class="app">
-    <div>我是父亲组件 {{hello}}</div>
-    <h2 v-beauty="hi">好开心</h2>
-
+    <h2>
+      我是父亲
+    </h2>
+    <br/>
+    <br/>
+    <Model/>
   </div>
 </template>
 
 <script setup lang="ts" name="App">
-import { getCurrentInstance, onMounted, ref } from 'vue'
-const hi =ref("today ");
-const {proxy} =getCurrentInstance();
-onMounted(()=>{
-  console.log(proxy.hello);
-})
+import Model from '@/Model.vue'
 
 
 </script>
